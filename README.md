@@ -46,7 +46,7 @@ pdm add <nombrelibrería>
 **Procesado de datos**
 
 - [pola.rs][polars]: librería similar a pandas en funcionalidad pero usualmente más rápida, con distinta sintaxis.
-- Spark: recomendado para grandes volúmenes de datos (aunque es más compleja de usar).
+- [dask][dask]: recomendado para grandes volúmenes de datos (1Tb o más, que requiera computación distribuída).
 
 **Gráficos**
 
@@ -66,3 +66,4 @@ pdm add <nombrelibrería>
 [rich]: <https://rich.readthedocs.io/en/latest/>
 [docker]: <https://www.docker.com/>
 [polars]: <https://pola.rs/>
+[dask]: <https://www.dask.org>
